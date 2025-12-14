@@ -1,4 +1,4 @@
-# halo-node-buildroot-test
+# auto-merge-top-level
 
 Test repository for auto-merge workflow validation - Level 3 (top tier).
 
@@ -6,12 +6,12 @@ This repository demonstrates automatic PR creation and auto-merge functionality 
 
 ## Purpose
 
-- Contains `halo-node-test` as a submodule in `opt/halo-node-test`
+- Contains `auto-merge-middle-level` as a submodule in `opt/auto-merge-middle-level`
 - When the submodule is updated via auto-PR, auto-merge is enabled automatically
 - PR merges when all checks pass
 - This is the top level - no parent to trigger
 
 ## Part of Test Chain
 
-halo-auto-merge-test → halo-node-test → **halo-node-buildroot-test**
+auto-merge-bottom-level → auto-merge-middle-level → **auto-merge-top-level**
 
