@@ -1,3 +1,3 @@
-[submodule "opt/halo-node-test"]
-	path = opt/halo-node-test
+[submodule "opt/auto-merge-middle-level"]
+	path = opt/auto-merge-middle-level
 	url = https://github.com/ngurfinkel/auto-merge-middle-level.git
